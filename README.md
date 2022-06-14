@@ -5,7 +5,7 @@ This is a solution to the [Interactive rating component Challenge](https://www.f
 
 ## Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-70ncdJx9Da]
 - Live Site URL: [https://macdeesh.github.io/Interactive-rating-component/]
 
 ## Screenshot
