@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+
+  <div class="card">
+
+    <!-- Rating state start -->
+
+    <div class="rating-state">
+
+      <div class="heading">
+        <div class="star-svg">
+          <img src="images/icon-star.svg" alt="">
+        </div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+      </div>
+
+      <div class="rating">
+
+        <div>
+          <input type="radio" name="rating" id="num1" value="1">
+          <label for="num1">
+            <p>1</p>
+          </label>
+        </div>
+
+        <div>
+          <input type="radio" name="rating" id="num2" value="2">
+          <label for="num2">
+            <p>2</p>
+          </label>
+        </div>
+
+        <div>
+          <input type="radio" name="rating" id="num3" value="3">
+          <label for="num3">
+            <p>3</p>
+          </label>
+        </div>
+
+        <div>
+          <input type="radio" name="rating" id="num4" value="4">
+          <label for="num4">
+            <p>4</p>
+          </label>
+        </div>
+
+        <div>
+          <input type="radio" name="rating" id="num5" value="5">
+          <label for="num5">
+            <p>5</p>
+          </label>
+        </div>
+
+      </div>
+
+      <div class="submitting">
+        <button onclick="submit()" class="submit-btn"> Submit</button>
+      </div>
+
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <div class="thank-state">
+      <div class="thank-illustration">
+        <img src="images/illustration-thank-you.svg" alt="">
+      </div>
+      <div class="rate-selection">
+        <p>You selected <span>0</span> out of 5</p>
+      </div>
+
+      <div class="appreciation">
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don't hesitate to get in touch!
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <!-- Thank you state end -->
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
